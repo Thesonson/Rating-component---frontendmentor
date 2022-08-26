@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif
+}
+
+body{
+    background: hsl(216, 12%, 8%) ;
+    height: 100vh;
+}
+
+.container{
+    background-color:  hsl(213, 19%, 18%) ;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.icon{
+    padding: 20px 0;
+
+}
+
+.icon img {
+    background:  hsl(213, 13%, 24%) ;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+h2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.content p{
+    font-size: 18px;
+    color: hsl(216, 12%, 54%) ;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.btn{
+    padding: 15px 20px;
+    border-radius: 30px;
+    background: hsl(213, 13%, 24%) ;
+    border: none;
+    outline: none;
+    color: hsl(217, 12%, 63%) ;
+   cursor: pointer;
+}
+
+.btn:hover{
+    background:  hsl(217, 12%, 63%) ;
+    color: white;
+    transition: 0.4s ease;
+    
+}
+
+
+
+.submit-btn{
+    width: 24rem;
+    padding: 10px 0 ;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+
+.submit-btn:hover{
+    background: white;
+    color: hsl(25, 97%, 53%);
+    transition: 0.3s ease-in-out;
+}
+
+.btn.active{
+   background: hsl(25, 97%, 53%) ;
+   color: white;
+}
+
+.hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+section{
+    background-color:  hsl(213, 19%, 18%) ;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px 20px 35px;
+    border-radius: 10px;
+}
+.img-submitted{
+  text-align: center;
+ 
+}
+.img-submitted img{
+ margin-bottom: 10px;
+}
+.test{
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+.result {
+    background: hsl(213, 13%, 24%) ;
+    padding: 5px;
+    width: 70%;
+    color: hsl(25, 97%, 53%) ;
+    border-radius: 15px;
+}
+
+.content__submited p {
+  color: hsl(217, 12%, 63%);  
+}
+
+.sign{
+    color: white;
+    text-align: center;
+    font-size: 11px;
+
+}
+
+@media screen and (min-width: 340px){
+    .container2{
+       padding: 20px 0;
+       text-align: center;
+       line-break: none;
+    }
+
+}
